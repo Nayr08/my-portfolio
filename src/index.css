@@ -1,0 +1,31 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  isolation: isolate;
+}
+
+/* Remove default button / input styles */
+button { font-family: inherit; }
+input, textarea { font-family: inherit; }
+
+/* Selection colour */
+::selection {
+  background: rgba(255, 92, 26, 0.25);
+  color: #f0ede6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #FF5C1A; }
