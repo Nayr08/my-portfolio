@@ -119,3 +119,42 @@ a { cursor: none; }
   width: min(100%, var(--content-max));
   margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: clamp(2.1rem, 5vw, 3.2rem);
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body,
+  a,
+  .btn-primary,
+  .btn-outline {
+    cursor: auto;
+  }
+
+  .cursor,
+  .cursor-ring {
+    display: none;
+  }
+
+  .section-label {
+    font-size: 0.68rem;
+    letter-spacing: 2.4px;
+  }
+
+  .section-title {
+    font-size: clamp(1.9rem, 9vw, 2.8rem);
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    min-height: 46px;
+    padding: 0.72rem 1.3rem;
+    font-size: 0.82rem;
+  }
+}

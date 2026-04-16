@@ -44,6 +44,21 @@
 }
 .footer-links a:hover { color: var(--orange); }
 
+@media (max-width: 900px) {
+  .footer {
+    padding: 1.75rem 2rem;
+  }
+  .footer-inner,
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 600px) {
   .footer {
     padding: 1.5rem;

@@ -5,14 +5,16 @@ export default function About() {
   return (
     <section className="about" id="about">
       <div className="about-inner site-shell">
-        <div className="about-img reveal">
-          <div className="about-img-inner">
-            <img src={GradPic} alt="Michael Ryan Arreglo" className="about-img-pic" />
-            <div className="about-deco-line" />
-          </div>
-          <div className="about-exp-badge">
-            <span className="about-exp-num">2+</span>
-            <span className="about-exp-lbl">Years Building</span>
+        <div className="about-media reveal">
+          <div className="about-img">
+            <div className="about-img-inner">
+              <img src={GradPic} alt="Michael Ryan Arreglo" className="about-img-pic" />
+              <div className="about-deco-line" />
+            </div>
+            <div className="about-exp-badge">
+              <span className="about-exp-num">2+</span>
+              <span className="about-exp-lbl">Years Building</span>
+            </div>
           </div>
           <div className="about-details about-details-left">
             <div className="about-detail-item">

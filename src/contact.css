@@ -25,7 +25,7 @@
   margin-bottom: 1.2rem;
 }
 .contact-headline span { color: var(--orange); }
-.contact-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 2.5rem; }
+.contact-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 2.5rem; text-align: justify; }
 .contact-email {
   display: inline-block;
   font-family: var(--font-display);
@@ -35,6 +35,7 @@
   text-decoration: none;
   margin-bottom: 2.5rem;
   transition: opacity 0.2s;
+  overflow-wrap: anywhere;
 }
 .contact-email:hover { opacity: 0.75; }
 .contact-links {
@@ -53,4 +54,35 @@
   transition: color 0.2s;
 }
 .contact-link:hover { color: var(--orange); }
-@media (max-width: 600px) { .contact { padding: 5rem 1.5rem; } }
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 6rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 5rem 1.5rem;
+  }
+  .contact-sub {
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+  .contact-email {
+    letter-spacing: 1px;
+    font-size: clamp(1.35rem, 8vw, 2.3rem);
+  }
+  .contact-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 4.5rem 1rem;
+  }
+  .contact-link {
+    font-size: 0.8rem;
+  }
+}
