@@ -1,16 +1,80 @@
-# React + Vite
+# Michael Ryan Arreglo Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built to present my work, technical strengths, and project experience as a Computer Engineer focused on full-stack development, AI-assisted systems, and IoT-connected solutions.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio highlights:
 
-## React Compiler
+- who I am and what I build
+- selected real-world and production-oriented projects
+- technical skills across frontend, backend, databases, AI, and tools
+- contact details for freelance, remote, and full-time opportunities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The site is designed with a modern dark visual style, smooth section transitions, and a polished single-page experience.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS3
+
+## Sections
+
+- Hero
+- About
+- Skills
+- Projects
+- Contact
+
+## Featured Work
+
+Projects showcased in the site include:
+
+- EduTag System
+- Superales Surplus
+- Southstyle
+- Uncle Belly
+- SummitPH Booking Platform
+- Live Selling POS System
+
+## Getting Started
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+4. Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Goal
+
+This repository serves as my personal portfolio and professional showcase. It is meant to give recruiters, clients, and collaborators a quick but strong view of the kind of systems I build and the quality of work I aim to deliver.
+
+## Contact
+
+- Email: `arreglo44@gmail.com`
+- LinkedIn: `https://linkedin.com/in/ryan-arreglo`
+- GitHub: `https://github.com/Nayr08`
+
+## Notes
+
+This project is actively refined as my work, experience, and featured projects continue to grow.
