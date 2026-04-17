@@ -25,7 +25,14 @@
   margin-bottom: 1.2rem;
 }
 .contact-headline span { color: var(--orange); }
-.contact-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 2.5rem; text-align: justify; }
+.contact-sub {
+  max-width: 42rem;
+  margin: 0 auto 2.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  text-wrap: balance;
+}
 .contact-email {
   display: inline-block;
   font-family: var(--font-display);
