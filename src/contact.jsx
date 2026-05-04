@@ -1,5 +1,7 @@
 import './contact.css'
 
+const resumeUrl = '/Michael_Ryan_Arreglo_Resume.html'
+
 export default function Contact() {
   return (
     <section className="contact" id="contact">
@@ -26,6 +28,9 @@ export default function Contact() {
             </a>
             <a href="tel:+639628035151" className="contact-link">
               <span>0962-803-5151</span> &rarr;
+            </a>
+            <a href={resumeUrl} target="_blank" rel="noreferrer" className="contact-link">
+              <span>Resume</span> &rarr;
             </a>
           </div>
         </div>

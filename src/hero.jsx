@@ -1,11 +1,13 @@
 import './hero.css'
 import GradPic from './assets/GradPic.png'
 
+const resumeUrl = '/Michael_Ryan_Arreglo_Resume.html'
+
 export default function Hero() {
   const credibilityItems = [
-    'Full-stack + IoT + AI-assisted builder',
+    'Full-stack developer for deployed web apps',
     'Open to remote work',
-    'Strong experience with production-ready apps',
+    'Strong with AI-assisted product features',
   ]
 
   return (
@@ -17,13 +19,13 @@ export default function Hero() {
           <h1 className="hero-title">
             Full-Stack<br />
             <span className="hero-title-accent">Developer</span> for<br />
-            AI &amp; IoT Products
+            Web Apps &amp; AI Tools
           </h1>
 
           <p className="hero-sub">
-            I help teams build production-ready platforms that connect modern web apps,
-            AI-assisted features, and real-world devices. From backend architecture to
-            polished frontend delivery, I build end-to-end with speed and care.
+            I build production-ready platforms for real client workflows, from backend
+            architecture and database design to polished frontend delivery, admin dashboards,
+            customer portals, and AI-assisted automation.
           </p>
 
           <div className="hero-btn-group">
@@ -35,6 +37,9 @@ export default function Hero() {
               View Projects &rarr;
             </a>
             <a href="mailto:arreglo44@gmail.com" className="btn-outline hero-btn-secondary">Get In Touch</a>
+            <a href={resumeUrl} target="_blank" rel="noreferrer" className="btn-outline hero-btn-secondary">
+              View Resume
+            </a>
           </div>
 
         </div>
@@ -54,7 +59,7 @@ export default function Hero() {
               </div>
             </div>
             <p className="hero-card-copy">
-              Full-stack builder for production-ready apps, AI-assisted features, and IoT systems.
+              Full-stack builder for deployed apps, AI-assisted features, and practical business workflows.
             </p>
             <div className="hero-status hero-status-live">
               <span className="status-dot" />
@@ -69,7 +74,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="hero-card-note">
-              Best suited for teams that need one developer who can build across frontend, backend, and connected-device workflows.
+              Best suited for teams that need one developer who can build across frontend, backend, databases, and user-facing workflows.
             </p>
             <div className="hero-card-metrics">
               <div className="hero-card-metric">

@@ -1,17 +1,50 @@
 import './projects.css'
 import logoEdutag from './assets/pnsalogo-f.png'
-import logoSummitph from './assets/summitlogo-f.png'
-import logoLiveselling from './assets/liveselling.png'
-import logoSouthstyle from './assets/southstylelogo-f.png'
+import logoSouthstyleSuki from './assets/SouthStyleSUKI-logo.png'
+import logoAiOrganizer from './assets/aiorganizer-logo.png'
+import logoHikeMuna from './assets/hikemuna-logo.png'
 import logoSuperales from './assets/superales_logo.png'
 import logoUncleBelly from './assets/UncleBelly.png'
 
 const projects = [
   {
+    name: 'SouthStyle Suki Point System',
+    category: 'Loyalty & Order Tracking Platform',
+    year: '2026',
+    outcome: 'Deployed client system',
+    desc: 'Built and deployed a customer loyalty system for SouthStyle using Next.js, React, TypeScript, Tailwind CSS, Supabase, and PostgreSQL. The platform supports customer login, admin and staff dashboards, QR/RFID account lookup, point earning and redemption, coupons, tier progress, transaction history, and order tracking backed by Playwright E2E tests.',
+    tags: ['Next.js', 'Supabase', 'PostgreSQL', 'Playwright'],
+    logo: logoSouthstyleSuki,
+    bg: 'bg1',
+    link: 'https://github.com/Nayr08/SouthStyle-PointSystem',
+  },
+  {
+    name: 'AI Organizer Web App',
+    category: 'AI Productivity Tool',
+    year: '2026',
+    outcome: 'Natural-language task parsing',
+    desc: 'Developed an AI schedule organizer that converts English, Tagalog, and Bisaya schedule input into structured tasks with dates, time ranges, categories, priorities, recurrence, and fallback parsing. The app uses Next.js, React, TypeScript, Prisma, PostgreSQL, OpenAI, Google GenAI/Gemini, and Zod validation.',
+    tags: ['Next.js', 'Prisma', 'OpenAI', 'Gemini'],
+    logo: logoAiOrganizer,
+    bg: 'bg5',
+    link: 'https://github.com/Nayr08/AIOrganizer',
+  },
+  {
+    name: 'HikeMuna Hiking Platform',
+    category: 'Marketplace & Social App',
+    year: '2026',
+    outcome: 'Booking and organizer workflows',
+    desc: 'Built a hiking marketplace and social app with Next.js, React, TypeScript, Supabase Auth and Database, Tailwind CSS, and MapLibre GL. The platform includes hike discovery, booking requests, organizer publishing, user profiles, Google auth, post creation, image compression, Cloudinary uploads, and map views.',
+    tags: ['Next.js', 'Supabase', 'MapLibre', 'Cloudinary'],
+    logo: logoHikeMuna,
+    bg: 'bg3',
+    link: 'https://github.com/Nayr08/HikeMuna',
+  },
+  {
     name: 'EduTag System',
     category: 'Web Platform',
     year: '2024',
-    outcome: '1,000+ active users',
+    outcome: 'Deployed for 1,000+ users',
     desc: 'Built to streamline school operations for a growing academic community, EduTag replaced fragmented manual processes with a live education management platform. I developed the core database structure, authentication flow, and REST API from scratch, creating a system that supports 1,000+ active users with clearer records, faster access, and more reliable day-to-day administration.',
     tags: ['Node.js', 'Supabase', 'API Architecture'],
     logo: logoEdutag,
@@ -19,56 +52,25 @@ const projects = [
     link: 'https://pnsa-pcds.web.app',
   },
   {
-    name: 'Superales Surplus',
-    category: 'Retail Operations Platform',
+    name: 'UB Enterprises Management System',
+    category: 'Enterprise Platform',
     year: '2025',
-    outcome: 'Real-time stock visibility',
-    desc: 'Created for a surplus retail business that needed tighter control over stock and sales, Superales Surplus centralizes inventory, reporting, and store activity in one platform. I built a real-time inventory and sales workflow that improves stock visibility, reduces manual tracking, and gives the business a more reliable operational view.',
-    tags: ['React', 'Node.js', 'Real-Time Inventory'],
-    logo: logoSuperales,
-    bg: 'bg2',
-    link: 'https://superales-surplus.vercel.app',
-  },
-  {
-    name: 'Southstyle',
-    category: 'E-Commerce Platform',
-    year: '2025',
-    outcome: 'Stronger digital sales experience',
-    desc: 'Designed to give a fashion brand a cleaner online buying experience, Southstyle turns product discovery, cart management, and checkout into a responsive end-to-end storefront. The platform improves product presentation, simplifies purchasing, and gives the business a stronger digital sales channel.',
-    tags: ['Flutter', 'Firebase', 'Responsive Commerce'],
-    logo: logoSouthstyle,
-    bg: 'bg1',
-    link: 'https://southstyle.vercel.app',
-  },
-  {
-    name: 'Uncle Belly',
-    category: 'ENTERPRISE PLATFORM',
-    year: '2026',
     outcome: 'Centralized operations across branches',
-    desc: 'Built a responsive enterprise resource management platform for multi-branch operations, featuring role-based dashboards, real-time inventory tracking, production workflows, audit trails, and reporting tools. The system helps centralize approvals, orders, branch monitoring, and financial visibility in one interface.',
+    desc: 'Built a responsive enterprise resource management platform for multi-branch operations, featuring role-based dashboards, real-time inventory tracking, production workflows, approval systems, audit trails, and reporting tools. The system helps centralize orders, branch monitoring, and financial visibility in one interface.',
     tags: ['React', 'Vite', 'Recharts', 'Chart.js', 'XLSX'],
     logo: logoUncleBelly,
     bg: 'bg2',
   },
   {
-    name: 'SummitPH Booking Platform',
-    category: 'Booking Platform',
-    year: '2024',
-    outcome: 'Better booking flow clarity',
-    desc: 'Built to simplify travel and booking workflows, SummitPH combines a responsive booking experience with interactive map-based exploration through MapLibre. The result is a more intuitive user journey, helping users understand locations faster and complete booking steps with less friction.',
-    tags: ['Vue.js', 'MapLibre', 'UX Flows'],
-    logo: logoSummitph,
-    bg: 'bg2',
-  },
-  {
-    name: 'Live Selling POS System',
-    category: 'Desktop POS System',
-    year: '2023',
-    outcome: '85% fewer manual tracking errors',
-    desc: 'Developed for retail operations that relied heavily on manual monitoring, this desktop POS system automated receipt generation, sales handling, and inventory reporting in one workflow. The system improved day-to-day efficiency, strengthened reporting accuracy, and reduced manual tracking errors by 85 percent.',
-    tags: ['JavaFX', 'MySQL', 'Desktop Workflow'],
-    logo: logoLiveselling,
-    bg: 'bg3',
+    name: 'Superales Surplus',
+    category: 'Retail Operations Platform',
+    year: '2025',
+    outcome: 'Real-time stock visibility',
+    desc: 'Created for a surplus retail business that needed tighter control over stock and sales, Superales Surplus centralizes inventory, reporting, and store activity in one platform. I built a real-time inventory and sales workflow that improves stock visibility and reduces manual tracking.',
+    tags: ['React', 'Node.js', 'Real-Time Inventory'],
+    logo: logoSuperales,
+    bg: 'bg4',
+    link: 'https://superales-surplus.vercel.app',
   },
 ]
 
@@ -104,7 +106,11 @@ export default function Projects() {
               onClick={() => handleProjectClick(p.link)}
             >
               <div className={`proj-visual ${p.bg}`}>
-                <img src={p.logo} alt={p.name} className="proj-logo" />
+                {p.logo ? (
+                  <img src={p.logo} alt={p.name} className="proj-logo" />
+                ) : (
+                  <div className="proj-initials" aria-hidden="true">{p.initials}</div>
+                )}
               </div>
               <div className="proj-body">
                 <div className="proj-meta-top">

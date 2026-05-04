@@ -112,7 +112,50 @@
   transition: transform 0.3s ease;
 }
 
-.skill-logo-card:hover .skill-logo-img {
+.skill-logo-badge {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 70px;
+  height: 70px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(255, 92, 26, 0.18), rgba(255, 255, 255, 0.04));
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 14px 28px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease;
+}
+
+.skill-logo-badge--blue {
+  background: linear-gradient(135deg, rgba(49, 130, 206, 0.28), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-badge--green {
+  background: linear-gradient(135deg, rgba(20, 184, 120, 0.3), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-badge--violet {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.32), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-badge--amber {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.34), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-badge--cyan {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-badge--teal {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.28), rgba(255, 255, 255, 0.04));
+}
+
+.skill-logo-card:hover .skill-logo-img,
+.skill-logo-card:hover .skill-logo-badge {
   transform: scale(1.08);
 }
 
@@ -146,6 +189,12 @@
     width: 60px;
     height: 60px;
   }
+
+  .skill-logo-badge {
+    width: 60px;
+    height: 60px;
+    font-size: 1.15rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -169,6 +218,12 @@
   .skill-logo-img {
     width: 55px;
     height: 55px;
+  }
+
+  .skill-logo-badge {
+    width: 55px;
+    height: 55px;
+    font-size: 1rem;
   }
 }
 
@@ -204,6 +259,12 @@
   .skill-logo-img {
     width: 50px;
     height: 50px;
+  }
+
+  .skill-logo-badge {
+    width: 50px;
+    height: 50px;
+    font-size: 0.95rem;
   }
 
   .skill-name {

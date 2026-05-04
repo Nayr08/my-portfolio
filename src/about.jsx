@@ -36,10 +36,10 @@ export default function About() {
           <p className="section-label">About Me</p>
           <h2 className="section-title">Engineer for<br />Real-World Digital Systems</h2>
           <p className="about-text">
-            I build production-ready systems that connect software, devices, and practical business workflows. My work spans full-stack web development, IoT engineering, and AI-assisted solutions designed to solve real operational problems.
+            I build production-ready systems for practical business workflows. My work spans full-stack web development, database-backed platforms, admin dashboards, customer portals, and AI-assisted features designed to solve real operational problems.
           </p>
           <p className="about-text">
-            Beyond portfolio demos, I've delivered systems intended for actual use, from frontend interfaces and backend services to embedded integrations. I bring a grounded engineering approach: clear architecture, reliable execution, and a focus on outcomes teams can measure.
+            Beyond portfolio demos, I've delivered systems intended for actual use, from frontend interfaces and backend services to deployed client tools. I bring a grounded engineering approach: clear architecture, reliable execution, and a focus on outcomes teams can measure.
           </p>
 
           <div className="about-research-badge">
