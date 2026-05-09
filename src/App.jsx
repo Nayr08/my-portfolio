@@ -4,6 +4,7 @@ import Hero from './hero'
 import About from './about'
 import Projects from './projects'
 import Skills from './skills'
+import Certificates from './certificates'
 import Contact from './contact'
 import Footer from './footer'
 import Cursor from './cursor'
@@ -28,6 +29,7 @@ export default function App() {
       <Hero />
       <About />
       <Skills />
+      <Certificates />
       <Projects />
       <Contact />
       <Footer />
